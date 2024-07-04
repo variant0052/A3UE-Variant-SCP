@@ -129,5 +129,27 @@ class Templates {
         climate[] = {"arid", "arctic", "temperate"}; //climate that the template is meant for
 		description = "Chaos Insurgency";
     };	
+	
+		class Variant_FBI : Variant_Base
+    {
+        side = "Riv"; //the side the faction defaults to, one of the following: Inv, Occ, Reb, Riv, Civ
+        flagTexture = QPATHTOFOLDER(data\V_UIU_flag.paa); //path to an icon to be displayed in the selector
+        name = "FBI UIU"; //the name shown in the selector
+        file = "Variant_Riv_FBI"; //the template file name
+        maps[] = {}; //if this template should be prioritized on any maps (case sensetive to worldName)
+        climate[] = {"arid", "arctic", "temperate"}; //climate that the template is meant for
+		description = "FBI UIU";
+    };	
+	
+		class Variant_SH : Variant_Base
+    {
+        side = "Riv"; //the side the faction defaults to, one of the following: Inv, Occ, Reb, Riv, Civ
+        flagTexture = QPATHTOFOLDER(data\V_SH_flag.paa); //path to an icon to be displayed in the selector
+        name = "SH"; //the name shown in the selector
+        file = "Variant_Riv_SH"; //the template file name
+        maps[] = {}; //if this template should be prioritized on any maps (case sensetive to worldName)
+        climate[] = {"arid", "arctic", "temperate"}; //climate that the template is meant for
+		description = "Serpent's Hand";
+    };	
 
 };

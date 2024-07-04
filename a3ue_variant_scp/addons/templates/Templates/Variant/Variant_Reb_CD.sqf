@@ -132,24 +132,15 @@ private _hasLawsOfWar = "orange" in A3A_enabledDLC;
 ///////////////////////////
 
 private _initialRebelEquipment = [
-    "CUP_smg_PS90_olive", "50Rnd_570x28_SMG_03",
+    "rhs_weap_M590_5RD", "rhsgref_1Rnd_00Buck",
     "UK3CB_BHP", "UK3CB_BHP_9_13Rnd",
     ["rhs_weap_rpg18", 5], ["rhs_weap_m72a7", 5],
     ["IEDUrbanSmall_Remote_Mag", 10], ["IEDLandSmall_Remote_Mag", 10], ["IEDUrbanBig_Remote_Mag", 3], ["IEDLandBig_Remote_Mag", 3],
-    "B_FieldPack_oli",
-    "Binocular",
-    "rhs_weap_rsp30_white","rhs_mag_rsp30_white",
-    "rhs_weap_rsp30_green","rhs_mag_rsp30_green",
-    "rhs_weap_rsp30_red", "rhs_mag_rsp30_red",
-    "rhs_mag_nspd", "rhs_mag_nspn_yellow", "rhs_mag_nspn_green", "rhs_mag_nspn_red",
-    "rhsgref_chicom","V_BandollierB_oli",
-    "UK3CB_CHC_C_B_MED", "B_AssaultPack_blk"
+    "Binocular"
 ];
 
 if (A3A_hasTFAR) then {_initialRebelEquipment append ["tf_microdagr","tf_anprc154"]};
-if (A3A_hasTFAR && startWithLongRangeRadio) then {_initialRebelEquipment append ["tf_anprc155","tf_anprc155_coyote"]};
 if (A3A_hasTFARBeta) then {_initialRebelEquipment append ["TFAR_microdagr","TFAR_anprc154"]};
-if (A3A_hasTFARBeta && startWithLongRangeRadio) then {_initialRebelEquipment append ["TFAR_anprc155","TFAR_anprc155_coyote"]};
 _initialRebelEquipment append ["Chemlight_blue","Chemlight_green","Chemlight_red","Chemlight_yellow"];
 ["initialRebelEquipment", _initialRebelEquipment] call _fnc_saveToTemplate;
 

@@ -152,10 +152,10 @@ _loadoutData set ["uniforms", _rebUniforms];
 // ]];
 
 _loadoutData set ["glasses", [
-    "MTF_Bandana_Glasses"
+    "CUP_PMC_G_thug"
 ]]; // _CAMO_ marker
-_loadoutData set ["goggles", ["rhs_ess_black"]];
-_loadoutData set ["facemask", ["rhssaf_veil_Green", "G_Bandanna_blk", "G_Bandanna_beast"]];
+_loadoutData set ["goggles", ["CUP_PMC_G_thug"]];
+_loadoutData set ["facemask", ["CUP_PMC_G_thug"]];
 
 _loadoutData set ["items_medical_basic", ["BASIC"] call A3A_fnc_itemset_medicalSupplies];
 _loadoutData set ["items_medical_standard", ["STANDARD"] call A3A_fnc_itemset_medicalSupplies];
@@ -168,7 +168,7 @@ _loadoutData set ["items_miscEssentials", [] call A3A_fnc_itemset_miscEssentials
 
 private _squadLeaderTemplate = {
     ["uniforms"] call _fnc_setUniform;
-    [selectRandomWeighted [[], 1.25, "glasses", 1, "goggles", 0.75, "facemask", 1]] call _fnc_setFacewear;
+    [selectRandomWeighted ["glasses", 1, "goggles", 0.75, "facemask", 1]] call _fnc_setFacewear;
 
     ["items_medical_standard"] call _fnc_addItemSet;
     ["items_miscEssentials"] call _fnc_addItemSet;
@@ -185,7 +185,7 @@ private _squadLeaderTemplate = {
 
 private _riflemanTemplate = {
     ["uniforms"] call _fnc_setUniform;
-    [selectRandomWeighted [[], 1.25, "glasses", 1, "goggles", 0.75, "facemask", 1]] call _fnc_setFacewear;
+    [selectRandomWeighted ["glasses", 1, "goggles", 0.75, "facemask", 1]] call _fnc_setFacewear;
     
     ["items_medical_standard"] call _fnc_addItemSet;
     ["items_miscEssentials"] call _fnc_addItemSet;

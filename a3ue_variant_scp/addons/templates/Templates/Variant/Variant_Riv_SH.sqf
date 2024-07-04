@@ -2,8 +2,8 @@
 //   Rivals Information   //
 ///////////////////////////
 
-["name", "CHDKZ"] call _fnc_saveToTemplate;
-["nameLeader", "Mikola Bardak"] call _fnc_saveToTemplate;
+["name", "Serpent's Hand"] call _fnc_saveToTemplate;
+["nameLeader", "M."] call _fnc_saveToTemplate;
 
 //////////////////////////////////////
 //       	Identities    			//
@@ -87,45 +87,14 @@ _loadoutData set ["smokeGrenades", ["rhs_mag_rdg2_white"]];
 _loadoutData set ["signalsmokeGrenades", ["rhs_mag_nspd"]];
 
 _loadoutData set ["facewear", [
-	"G_Shades_Black", 
-	"G_Shades_Blue", 
-	"G_Shades_Green", 
-	"G_Shades_Red", 
-	"G_Aviator",
-	"G_Spectacles", 
-	"G_Spectacles_Tinted",
-	"G_Sport_BlackWhite", 
-	"G_Sport_Blackyellow", 
-	"G_Sport_Greenblack", 
-	"G_Sport_Checkered", 
-	"G_Sport_Red", 
-	"G_Bandanna_aviator",
-	"G_Bandanna_beast",
-	"G_Bandanna_sport",
-	"G_Bandanna_shades",
-	"rhs_scarf"
+	"G_Balaclava_oli"
 ]];
 _loadoutData set ["fullmask", [	
-	"rhs_balaclava", 
-	"G_Balaclava_blk", 
-	"rhs_balaclava1_olive", 
-	"G_Balaclava_oli",
-	"rhssaf_veil_Green",
-	"UK3CB_G_Balaclava_CHD",
-	"UK3CB_G_Bandanna_aviator_flora_alt",
-	"UK3CB_G_Balaclava_DES"
+	"rhs_balaclava"
 ]];
 
 _loadoutData set ["headgear", [
-    "rhs_beanie_green",
-    "rhs_beanie",
-    "rhssaf_booniehat_woodland",
-    "H_Cap_grn",
-    "H_Cap_oli",
-	"H_MilCap_grn",
-	"H_Bandanna_khk",
-	"H_Beret_blk",
-	"rhs_headband"
+    "UK3CB_CSAT_A_O_H_6b27m_Alt"
 ]];
 
 _loadoutData set ["maps", ["ItemMap"]];
@@ -139,39 +108,15 @@ _loadoutData set ["Rangefinder", ["rhs_pdu4"]];
 
 _loadoutData set ["uniforms", [
 	"rhs_uniform_gorka_r_g",
-	"rhs_uniform_gorka_r_g_gloves",
-	"rhs_uniform_gorka_r_y",
-	"rhs_uniform_gorka_r_y_gloves",
-	"rhs_uniform_gorka_1_a",
-	"rhs_uniform_gorka_1_b",
-	"rhs_uniform_afghanka_klmk",
-	"rhsgref_uniform_specter",
-	"rhsgref_uniform_specter",
-	"rhsgref_uniform_reed",
-	"rhsgref_uniform_reed",
-	"rhssaf_uniform_m93_oakleaf",
-	"rhssaf_uniform_m93_oakleaf",
-	"rhssaf_uniform_m93_oakleaf_summer",
-	"rhssaf_uniform_m93_oakleaf_summer",
-	"rhsgref_uniform_vsr",
-	"UK3CB_ADE_O_U_02_D",
-	"UK3CB_ADE_O_U_02_G",
-	"UK3CB_CHD_O_U_CombatUniform_01",
-	"UK3CB_CHD_O_U_H_Pilot_Uniform_03",
-	"UK3CB_CHD_O_U_CombatUniform_02",
-	"UK3CB_CHD_O_U_CombatUniform_03",
-	"UK3CB_CHD_O_U_CombatUniform_04",
-	"UK3CB_CHD_O_U_CombatUniform_09",
-	"UK3CB_CHD_O_U_CombatUniform_06",
-	"UK3CB_CHD_O_U_CombatUniform_08"
+	"G3Gorka_CombatUniform_EPSM"
 ]];
 
-_loadoutData set ["offuniforms", ["rhsgref_uniform_reed", "rhssaf_uniform_m93_oakleaf", "rhssaf_uniform_m93_oakleaf_summer", "rhsgref_uniform_vsr"]];
-_loadoutData set ["vests", ["rhsgref_TacVest_ERDL", "rhsgref_chicom", "rhs_vydra_3m", "rhs_lifchik_light"]];
-_loadoutData set ["heavyVests", ["rhssaf_vest_md99_woodland_rifleman_radio", "rhssaf_vest_md99_woodland_rifleman", "rhssaf_vest_md98_rifleman"]];
+_loadoutData set ["offuniforms", ["mgsr_fatigues"]];
+_loadoutData set ["vests", ["CUP_V_B_PASGT_OD"]];
+_loadoutData set ["heavyVests", ["CUP_Vest_RUS_6B45_Sh117_Green"]];
 _loadoutData set ["atBackpacks", ["rhs_rpg_2", "B_Carryall_oli"]];
 _loadoutData set ["backpacks", ["B_FieldPack_oli", "B_Carryall_oli", "UK3CB_B_TacticalPack_Oli", "UK3CB_LNM_B_B_CARRYALL_WDL_01"]];
-_loadoutData set ["helmets", ["rhs_ssh60", "rhs_ssh68_2", "rhsgref_M56"]];
+_loadoutData set ["helmets", ["rhs_altyn_novisor_ess", "rhs_altyn_novisor"]];
 
 //Item *set* definitions. These are added in their entirety to unit loadouts. No randomisation is applied.
 _loadoutData set ["items_medical_basic", ["BASIC"] call A3A_fnc_itemset_medicalSupplies]; //this line defines the basic medical loadout for vanilla
