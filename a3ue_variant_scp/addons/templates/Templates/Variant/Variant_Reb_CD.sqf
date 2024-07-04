@@ -132,7 +132,7 @@ private _hasLawsOfWar = "orange" in A3A_enabledDLC;
 ///////////////////////////
 
 private _initialRebelEquipment = [
-    "rhs_weap_M590_5RD", "rhsgref_1Rnd_00Buck",
+    "rhs_weap_M590_5RD", "rhsgref_5Rnd_00Buck",
     "UK3CB_BHP", "UK3CB_BHP_9_13Rnd",
     ["rhs_weap_rpg18", 5], ["rhs_weap_m72a7", 5],
     ["IEDUrbanSmall_Remote_Mag", 10], ["IEDLandSmall_Remote_Mag", 10], ["IEDUrbanBig_Remote_Mag", 3], ["IEDLandBig_Remote_Mag", 3],
