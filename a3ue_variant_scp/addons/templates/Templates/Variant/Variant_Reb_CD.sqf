@@ -7,8 +7,8 @@ private _hasLawsOfWar = "orange" in A3A_enabledDLC;
 ["name", "D-Class"] call _fnc_saveToTemplate;
 
 ["flag", "Flag_FIA_F"] call _fnc_saveToTemplate;
-["flagTexture", "x\a3ue_variant_scp\addons\templates\data\DC.paa"] call _fnc_saveToTemplate;
-["flagMarkerType", "flag_FIA"] call _fnc_saveToTemplate;
+["flagTexture", "x\a3ue_variant_scp\addons\templates\data\V_DC_flag.paa"] call _fnc_saveToTemplate;
+["flagMarkerType", "V_DC_mark"] call _fnc_saveToTemplate;
 
 
 ["vehiclesBasic", ["I_G_Quadbike_01_F"]] call _fnc_saveToTemplate;

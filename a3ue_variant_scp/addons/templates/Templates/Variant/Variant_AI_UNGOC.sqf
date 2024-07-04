@@ -6,8 +6,8 @@
 ["spawnMarkerName", "UN Support Corridor"] call _fnc_saveToTemplate;
 
 ["flag", "Flag_NATO_F"] call _fnc_saveToTemplate;
-["flagTexture", "x\a3ue_variant_scp\addons\templates\data\GOC.paa"] call _fnc_saveToTemplate;
-["flagMarkerType", "Faction_CUP_PMC_ION_black"] call _fnc_saveToTemplate;
+["flagTexture", "\A3\data_f\Flags\flag_uno_co.paa"] call _fnc_saveToTemplate;
+["flagMarkerType", "V_GOC_mark"] call _fnc_saveToTemplate;
 
 //////////////////////////
 //       Vehicles       //

@@ -6,8 +6,8 @@
 ["spawnMarkerName", "ION Support Corridor"] call _fnc_saveToTemplate;
 
 ["flag", "Flag_ION_F"] call _fnc_saveToTemplate;
-["flagTexture", "x\a3ue_variant_scp\addons\templates\data\MCD.paa"] call _fnc_saveToTemplate;
-["flagMarkerType", "UK3CB_Marker_ION"] call _fnc_saveToTemplate;
+["flagTexture", "cup\baseconfigs\cup_baseconfigs\data\flags\flag_ion_black_co.paa"] call _fnc_saveToTemplate;
+["flagMarkerType", "V_MCD_mark"] call _fnc_saveToTemplate;
 
 //////////////////////////
 //       Vehicles       //

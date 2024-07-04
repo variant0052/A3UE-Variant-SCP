@@ -6,8 +6,8 @@
 ["spawnMarkerName", "US Support Corridor"] call _fnc_saveToTemplate;
 
 ["flag", "Flag_US_F"] call _fnc_saveToTemplate;
-["flagTexture", "flag_USA"] call _fnc_saveToTemplate;
-["flagMarkerType", "x\a3ue_variant_scp\addons\templates\data\UIU.paa"] call _fnc_saveToTemplate;
+["flagTexture", "a3\data_f\flags\flag_us_co.paa"] call _fnc_saveToTemplate;
+["flagMarkerType", "V_UIU_mark"] call _fnc_saveToTemplate;
 
 //////////////////////////
 //       Vehicles       //

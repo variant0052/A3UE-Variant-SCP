@@ -7,8 +7,8 @@ private _hasLawsOfWar = "orange" in A3A_enabledDLC;
 ["name", "FBI UIU"] call _fnc_saveToTemplate;
 
 ["flag", "Flag_ION"] call _fnc_saveToTemplate;
-["flagTexture", "x\a3ue_variant_scp\addons\templates\data\UIU.paa"] call _fnc_saveToTemplate;
-["flagMarkerType", "UK3CB_Marker_ION"] call _fnc_saveToTemplate;
+["flagTexture", "a3\data_f\flags\flag_us_co.paa"] call _fnc_saveToTemplate;
+["flagMarkerType", "V_UIU_mark"] call _fnc_saveToTemplate;
 
 
 ["vehiclesBasic", ["UK3CB_ION_B_Winter_Quadbike"]] call _fnc_saveToTemplate;

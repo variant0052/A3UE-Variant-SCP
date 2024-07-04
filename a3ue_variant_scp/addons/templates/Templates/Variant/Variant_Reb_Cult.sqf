@@ -7,8 +7,8 @@ private _hasLawsOfWar = "orange" in A3A_enabledDLC;
 ["name", "GoI Cult"] call _fnc_saveToTemplate;
 
 ["flag", "Flag_ION"] call _fnc_saveToTemplate;
-["flagTexture", "\A3\Data_F_Enoch\Flags\flag_looters_co.paa" call _fnc_saveToTemplate;
-["flagMarkerType", "UK3CB_Marker_ION"] call _fnc_saveToTemplate;
+["flagTexture", "\A3\Data_F_Enoch\Flags\flag_looters_co.paa"] call _fnc_saveToTemplate;
+["flagMarkerType", "\A3\ui_f_enoch\Data\CfgMarkers\LivoniaLooters_CA.paa"] call _fnc_saveToTemplate;
 
 
 ["vehiclesBasic", ["UK3CB_ION_B_Winter_Quadbike"]] call _fnc_saveToTemplate;

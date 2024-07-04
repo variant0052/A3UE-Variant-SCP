@@ -6,8 +6,8 @@
 ["spawnMarkerName", "AFRF Support Corridor"] call _fnc_saveToTemplate;
 
 ["flag", "Flag_NATO_F"] call _fnc_saveToTemplate;
-["flagTexture", "x\a3ue_variant_scp\addons\templates\data\GRUP.paa"] call _fnc_saveToTemplate;
-["flagMarkerType", "flag_Russia"] call _fnc_saveToTemplate;
+["flagTexture", "cup\baseconfigs\cup_baseconfigs\data\flags\flag_rus_co.paa"] call _fnc_saveToTemplate;
+["flagMarkerType", "V_GRUP_mark"] call _fnc_saveToTemplate;
 
 //////////////////////////
 //       Vehicles       //

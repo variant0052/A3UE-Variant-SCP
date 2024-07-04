@@ -7,8 +7,8 @@ private _hasLawsOfWar = "orange" in A3A_enabledDLC;
 ["name", "Gamers Against Weed"] call _fnc_saveToTemplate;
 
 ["flag", "Flag_ION"] call _fnc_saveToTemplate;
-["flagTexture", "x\a3ue_variant_scp\addons\templates\data\GAW.paa"] call _fnc_saveToTemplate;
-["flagMarkerType", "UK3CB_Marker_ION"] call _fnc_saveToTemplate;
+["flagTexture", "x\a3ue_variant_scp\addons\templates\data\V_GAW_flag.paa"] call _fnc_saveToTemplate;
+["flagMarkerType", "V_GAW_mark"] call _fnc_saveToTemplate;
 
 
 ["vehiclesBasic", ["UK3CB_ION_B_Winter_Quadbike"]] call _fnc_saveToTemplate;
