@@ -375,7 +375,7 @@ _militaryLoadoutData set ["atBackpacks", ["UK3CB_ION_B_B_ENG_BLK"]];
 _militaryLoadoutData set ["helmets", ["rhsusf_opscore_bk", "rhsusf_opscore_bk_pelt"]];
 _militaryLoadoutData set ["sniHats", ["UK3CB_H_Woolhat_BLK"]];
 _militaryLoadoutData set ["binoculars", ["rhsusf_bino_lerca_1200_black"]];
-_militaryloadoutData set [["glasses", [
+_militaryloadoutData set ["glasses", [
     "UK3CB_G_Bandanna_aviator_brown_check",
 	"UK3CB_G_Bandanna_aviator_flora_alt",
 	"UK3CB_G_Bandanna_aviator_green_check",
