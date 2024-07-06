@@ -13,7 +13,7 @@ class Templates {
     {
         side = "Inv"; //the side the faction defaults to, one of the following: Inv, Occ, Reb, Riv, Civ
         flagTexture = QPATHTOFOLDER(data\V_MCD_flag.paa); //path to an icon to be displayed in the selector
-        name = "MC&D"; //the name shown in the selector
+        name = "MC+D"; //the name shown in the selector
         file = "Variant_AI_MCD"; //the template file name
         maps[] = {}; //if this template should be prioritized on any maps (case sensetive to worldName)
         climate[] = {"arid", "arctic", "temperate"}; //climate that the template is meant for

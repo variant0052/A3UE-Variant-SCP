@@ -2,7 +2,7 @@
 //   Side Information   //
 //////////////////////////
 
-["name", "MC&D"] call _fnc_saveToTemplate;
+["name", "MC+D"] call _fnc_saveToTemplate;
 ["spawnMarkerName", "ION Support Corridor"] call _fnc_saveToTemplate;
 
 ["flag", "Flag_ION_F"] call _fnc_saveToTemplate;
