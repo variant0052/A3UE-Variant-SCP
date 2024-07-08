@@ -10,16 +10,27 @@ https://scp-wiki.wikidot.com/groups-of-interest
 {X} Not Yet Implemented
 This mod features:
 UN GOC (Inv, Occ) Supported by UN Peacekeepers & ACR
+
 MC&D (Inv, Occ) Supported by ION
+
 ORIA (Inv, Occ) Supported by Takistan & CSAT
+
 GRU-P (Inv, Occ) Supported by AFRF
+
 FBI UIU (Inv, Occ, Reb, Riv) Supported by US Army/Marines
+
 SCP ({Inv, Occ} Reb)
+
 GAW (Reb) [JOKE]
+
 Class-D (Reb)
+
 Cult (Reb) [Generic]
+
 CI (Riv)
+
 SH (Riv)
+
 {Custom Factions unique to the E-4 Storyline}
 
 These factions are NOT accurate to depictions from lore. They were recreated for use within my unit and make sense only in its canon.
