@@ -397,7 +397,7 @@ _militaryLoadoutData set ["machineGuns", [//Minimi
 ]];
 
 _militaryLoadoutData set ["marksmanRifles", [//SVD
-    ["rhs_weap_svdm", "", "", "rhs_acc_pso1m21", ["CUP_10Rnd_762x54_SVD_M", "ACE_10Rnd_762x54_Tracer_mag"], [], ""]
+    ["rhs_weap_svdp", "", "", "rhs_acc_pso1m21", ["CUP_10Rnd_762x54_SVD_M", "ACE_10Rnd_762x54_Tracer_mag"], [], ""]
 ]];
 
 _militaryLoadoutData set ["sniperRifles", [//CZ 750
