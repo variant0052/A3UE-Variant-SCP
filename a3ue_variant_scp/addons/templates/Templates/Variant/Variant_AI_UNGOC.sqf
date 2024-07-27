@@ -146,7 +146,7 @@ _loadoutData set ["watches", ["ItemWatch"]];
 _loadoutData set ["compasses", ["ItemCompass"]];
 _loadoutData set ["radios", ["ItemRadio"]];
 _loadoutData set ["gpses", ["ItemGPS"]];
-_loadoutData set ["NVGs", ["CUP_NVG_GPNVG_black_WP"]];
+_loadoutData set ["NVGs", ["SCP_Armbands_NVG_GlobalOccultCoalition"]];
 _loadoutData set ["binoculars", ["Binocular"]];
 _loadoutData set ["rangefinders", ["rhsusf_bino_lerca_1200_black"]];
 
@@ -234,7 +234,7 @@ _sfLoadoutData set ["atBackpacks", ["Black_Carryall"]];
 _sfLoadoutData set ["helmets", ["TRYK_H_PASGT_BLK"]];
 _sfLoadoutData set ["slHat", ["TRYK_H_PASGT_BLK"]];
 _sfLoadoutData set ["sniHats", ["TRYK_H_PASGT_BLK"]];
-_sfLoadoutData set ["NVGs", ["SCP_Armbands_NVG_GlobalOccultCoalition"]];
+_sfLoadoutData set ["NVGs", ["CUP_NVG_GPNVG_black_WP"]];
 _sfLoadoutData set ["binoculars", ["CUP_SOFLAM"]];
 _sfloadoutData set ["glasses", ["M40_Gas_mask_nbc_hood_v8_s"]]; // _CAMO_ marker
 _sfloadoutData set ["goggles", ["M40_Gas_mask_nbc_hood_v8_s"]];
